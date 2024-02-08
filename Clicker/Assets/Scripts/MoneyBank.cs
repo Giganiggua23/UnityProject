@@ -25,6 +25,7 @@ public class MoneyBank : MonoBehaviour
 
             }
         }
+
     void FixedUpdate()
         {
         costText.text = "Upgrade cost: $" + cost.ToString();

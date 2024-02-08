@@ -15,6 +15,7 @@ public class ClickHandler : MonoBehaviour
         score = Math.Round(score);
         score += profit;
         }
+
     void FixedUpdate()
         {
         scoreText.text = "$ " + score.ToString();
