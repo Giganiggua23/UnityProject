@@ -16,8 +16,6 @@ public class EnemyHealth : MonoBehaviour
 
     void FixedUpdate()
         {
-        transform.Translate(Vector2.right * speed * Time.deltaTime);
-
         if (health == 0)
             {
             Destroy(enemy);
